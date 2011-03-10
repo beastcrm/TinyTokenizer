@@ -1,0 +1,5 @@
+TinySegmenter for C#. 
+
+TinySegmenter is a text tokenizer for Japanese (and English). A tokenizer splits bodies of text into individual words, useful for example in keyword searching. Download from http://asheldritch.googlecode.com/files/TinySegmenter.cs
+
+I've also created TinyTokenizer for C#, which uses the TinySegmenter but adds the removal of tokens that are generally unwanted, such as punctuation and particles. It also dedupes the tokens and trims whitespace. Download from http://asheldritch.googlecode.com/files/TinyTokenizer.cs 
